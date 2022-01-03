@@ -4,9 +4,9 @@ from django.http import HttpResponse
 def home(request):
   return render(request,'home.html')
   
-def contact(request):
-  return render(request,'contact.html')
+def customer(request):
+  return render(request,'customer.html')
   
-def about(request):
-  return render(request,'about.html')
+def product(request):
+  return render(request,'product.html')
 # Create your views here.
